@@ -86,8 +86,8 @@ app.delete("/articles/:id", async (req, res) => {
     }
 });
   
-app.listen(8000, () => {
-    console.log('Starting the server on port 8000');
+app.listen(3000, () => {
+    console.log('Starting the server on port 3000');
 });
 
 module.exports = app;
