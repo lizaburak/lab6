@@ -35,7 +35,7 @@ describe("Post", () => {
       const response = await chai
         .request(app)
         .post("/articles")
-        .send(track)
+        .send(article)
   
       createdArticle = response.body;
     });
