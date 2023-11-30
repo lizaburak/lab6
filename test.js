@@ -69,7 +69,7 @@ describe("Post", () => {
     });
   
     it("Should update(patch) article by id", async () => {
-      const difference = { durationSeconds: 1111 }
+      const difference = { numberOfImages: 7 }
   
       const res = await chai
         .request(app)
