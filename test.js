@@ -54,7 +54,7 @@ describe("Post", () => {
         .request(app)
         .get(`/articles/${createdArticle._id}`);
   
-      expect(res.body).to.deep.equal(createdArticle1);
+      expect(res.body).to.deep.equal(createdArticle);
     });
   })
 
